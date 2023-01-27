@@ -17,12 +17,12 @@ html {
     padding: 0 7px;
 }
 
-h1 {
+header h1 {
     text-align: center;
     margin: -4px 0;
 }
 
-header p {
+p {
     margin: 0;
     display: flex;
     justify-content: space-between;
@@ -88,4 +88,15 @@ header p {
 
 .daily-value p:not(.no-divider) {
     border-bottom: 1px solid #888989;
+}
+
+.double-indent {
+    margin-left: 2em;
+}
+
+.note {
+    font-size: 0.6rem;
+    margin: 5px 0;
+    padding: 0 8px;
+    text-indent: -8px;
 }
